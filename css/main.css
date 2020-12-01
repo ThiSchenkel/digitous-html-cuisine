@@ -1,14 +1,19 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Courgette', cursive;
+    
+   
+}
+
+main{
+    background: url("../img/header.jpg") no-repeat center ;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .headeraccueil{
-    width: 100%;
-    height: 700px;
-    background: url("../img/header.jpg") no-repeat center / cover ;
-
-
+    
+    
 
 }
 
