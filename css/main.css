@@ -5,23 +5,18 @@ body{
    
 }
 
-main{
+#accueil{
     background: url("../img/header.jpg") no-repeat center ;
     min-width: 100%;
     min-height: 100%;
-}
-
-.headeraccueil{
-    
-    
-
 }
 
 .navbar{
     background:rgba(0,0,0,0.7);
 }
 
-h3, h1, h2{
+h1,
+.whitetitle{
     color: white;
     font-family: 'Courgette', cursive;
     font-weight: 900;
@@ -43,4 +38,22 @@ img{
 
 h1, h2{
     text-align: center;
+}
+
+
+
+/* Derniers articles */
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 10%;
+}
+
+.suzette img{
+    width: 100%;
+}
+
+.suzette h2{
+    padding: 5%;
 }
