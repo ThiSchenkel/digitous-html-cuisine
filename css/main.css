@@ -57,3 +57,26 @@ h1, h2{
 .suzette h2{
     padding: 5%;
 }
+
+.returnarticles a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+
+#endpage{
+    background-color: black;
+    color: white;
+}
+
+#endpage a{
+    color: white;
+    text-decoration: underline;
+}
+
+.fab{
+    color: white;
+
+}
+
