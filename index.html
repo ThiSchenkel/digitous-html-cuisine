@@ -25,17 +25,33 @@
         <header class="headeraccueil">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-dark justify-content-space-around">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
                         <h3 class="whitetitle">Cui'zine</h3>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            aria-label="Toggle navigation">
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Accueil <span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Equipe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
+            </div>
 
-            </div>
-            </div>
             <div class="cuisine">
 
                 <img src="./img/logo_square_white.png" alt="Logo square blanc" />
@@ -106,69 +122,84 @@
                     ◄ Voir les articles précédents</a>
             </div>
         </div>
+
+        <!-- boutons recherche et newsletter -->
+        <div class="suzette">
+            <div class="col-12">
+                <form class="form-inline my-2 my-lg-0">
+                    <p>Recherche</p>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Recherche..." aria-label="Search">
+                    <button type="submit" class="btn btn-light">Ok</button>
+                </form>
+            </div>
+        </div>
+
     </section>
 
     <!-- Footer -->
 
     <footer id="endpage">
         <div class="container">
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <h3>Catégories</h3>
-                    <a href="#">Revues</a>
+            <div class="categorie">
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <h3>Catégories</h3>
+                        <a href="#">Revues</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <a href="#">Recettes</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <a href="#">Découvertes</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <a href="#">Recettes</a>
+            <div class="archives">
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <h3>Archives</h3>
+                        <a href="#">2019</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <a href="#">Découvertes</a>
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <a href="#">2018</a>
+                    </div>
                 </div>
-            </div>
 
-
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <h3>Archives</h3>
-                    <a href="#">2019</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <a href="#">2018</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 justify-content-start">
-                    <a href="#">2017</a>
+                <div class="row">
+                    <div class="col-4 justify-content-start">
+                        <a href="#">2017</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Newsletter -->
-
-            <form>
-                <div class="form-group">
-                    <h3>Newsletter</h3>
-                    <div class="row">
-                        <div class="col-6">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Email...">
-                        </div>
-                        <div class="col-4">
-                            <button type="submit" class="btn btn-dark">S'inscrire</button>
+            <div class="newsletter">
+                <form>
+                    <div class="form-group">
+                        <h3>Newsletter</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Email...">
+                            </div>
+                            <div class="col-4">
+                                <button type="submit" class="btn btn-dark">S'inscrire</button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
 
                 <!-- réseaux sociaux -->
-
                 <h3>Partager</h3>
                 <div class="row">
                     <div class="col-12">
@@ -178,13 +209,8 @@
                         <a href="#"><i class="fab fa-twitter-square fa-2x"></i></i></a>
                     </div>
                 </div>
-
-
+            </div>
         </div>
-        </form>
-
-        </div>
-
     </footer>
 
 

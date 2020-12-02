@@ -100,3 +100,12 @@ h1, h2{
     color: white;
 
 }
+
+/* Responsive lg */
+
+@media (min-width : 738px){
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
