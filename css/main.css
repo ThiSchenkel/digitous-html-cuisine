@@ -5,6 +5,17 @@ body{
    
 }
 
+h3{
+    font-family: 'Courgette';
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+span{
+    font-family: 'Oswald', sans-serif;
+}
+
 #accueil{
     background: url("../img/header.jpg") no-repeat center ;
     min-width: 100%;
@@ -47,11 +58,15 @@ h1, h2{
 .container{
     width: 100%;
     height: auto;
-    margin: 10%;
+    margin: 5%;
 }
 
 .suzette img{
     width: 100%;
+}
+
+.suzette div{
+    padding: 2%;
 }
 
 .suzette h2{
@@ -68,6 +83,11 @@ h1, h2{
 #endpage{
     background-color: black;
     color: white;
+}
+
+#endpage .container{
+    padding: 10%;
+    margin: 0;
 }
 
 #endpage a{
