@@ -11,9 +11,14 @@ h3{
 }
 
 span{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
 }
 
+.btn{
+    font-family: 'Oswald';
+    font-size: 14px;
+    font-weight: bolder;
+}
 #accueil{
     background: url("../img/header.jpg") no-repeat center ;
 
@@ -79,6 +84,7 @@ h1, h2{
     color: black;
 }
 
+
 /* footer */
 
 #endpage{
@@ -112,8 +118,16 @@ h1, h2{
         display: flex;
         justify-content: space-between;
     }
+}
 
-    .showwindows{
+@media (min-width : 960px){
+    .showwindows,
+    .partager{
         display: block;
     }
+
+    .partager .fab{
+        color: black;
+    }
+
 }
