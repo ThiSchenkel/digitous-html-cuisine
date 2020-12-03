@@ -101,11 +101,19 @@ h1, h2{
 
 }
 
+.showwindows{
+    display: none;
+}
+
 /* Responsive lg */
 
 @media (min-width : 738px){
     footer .container{
         display: flex;
         justify-content: space-between;
+    }
+
+    .showwindows{
+        display: block;
     }
 }
