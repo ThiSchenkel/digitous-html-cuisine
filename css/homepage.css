@@ -3,7 +3,6 @@
     font-size: large;
     font-weight: bolder;
     font-style: italic;
-    padding: 2%;
 }
 
 .navbar-nav{
@@ -11,11 +10,7 @@
 }
 
 #accueil{
-    background: url("../img/header.jpg") no-repeat center ;
-}
-
-nav h3{
-    margin-left: 2%;
+    background: url("../img/header.jpg") no-repeat center /cover;
 }
 
 header{

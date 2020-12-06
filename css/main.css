@@ -1,5 +1,6 @@
 .osw{
     font-family: 'Oswald', sans-serif;
+    font-size: 200;
 }
 
 .courge{
@@ -11,8 +12,7 @@
 footer{
     color: white;
     padding: 5%;
-   
-
+    background-color: black;
 }
 
 footer :hover{
@@ -45,12 +45,19 @@ footer ul{
     color: black ;
 }
 
+
 #endpage a{
     color: white;
     text-decoration: underline;
+
 }
 
 .fab{
     color: white;
 
 }
+
+#endpage .row{
+    margin:  0 20%;
+}
+

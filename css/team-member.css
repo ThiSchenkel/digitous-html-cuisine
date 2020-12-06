@@ -34,10 +34,18 @@ h1,
     align-items: center;
 }
 
-.post-content{
-    padding-top: 3%;
-}
-
-.post-content .name, .post-content .picture{
+.hight {
+    margin-bottom: 10%;
     text-align: center;
 }
+
+.post-content{
+    padding-top: 24px; 
+}
+
+.post-content img{
+    float: left;
+    width : 25%;
+    margin: 0 16px 16px 0;
+}
+
